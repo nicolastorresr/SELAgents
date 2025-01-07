@@ -10,18 +10,18 @@ combining reinforcement learning with emotional processing models and theory of 
 __version__ = '0.1.0'
 
 # Core components
-from core.agent import Agent
-from core.emotion_engine import EmotionEngine
-from core.social_network import SocialNetwork
+from .core.agent import Agent
+from .core.emotion_engine import EmotionEngine
+from .core.social_network import SocialNetwork
 
 # Models
-from models.theory_of_mind import TheoryOfMind
-from models.emotional_memory import EmotionalMemory
-from models.social_strategies import SocialStrategies
+from .models.theory_of_mind import TheoryOfMind
+from .models.emotional_memory import EmotionalMemory
+from .models.social_strategies import SocialStrategies
 
 # Utilities
-from utils.metrics import MetricsCalculator
-from utils.visualizer import Visualizer
+from .utils.metrics import MetricsCalculator
+from .utils.visualizer import Visualizer
 
 __all__ = [
     # Version
