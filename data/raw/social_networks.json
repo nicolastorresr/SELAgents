@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "simulation_id": "sim_20250107_001",
+    "timestamp": "2025-01-07T09:00:00",
+    "network_type": "weighted_directed",
+    "version": "0.1.0"
+  },
+  "networks": [
+    {
+      "step": 0,
+      "nodes": [
+        {"id": "agent_0", "status": 0.5, "coalition": null},
+        {"id": "agent_1", "status": 0.5, "coalition": null},
+        {"id": "agent_2", "status": 0.5, "coalition": null}
+      ],
+      "edges": [
+        {"source": "agent_0", "target": "agent_1", "weight": 0.0},
+        {"source": "agent_1", "target": "agent_0", "weight": 0.0},
+        {"source": "agent_0", "target": "agent_2", "weight": 0.0}
+      ]
+    },
+    {
+      "step": 100,
+      "nodes": [
+        {"id": "agent_0", "status": 0.6, "coalition": "coalition_1"},
+        {"id": "agent_1", "status": 0.4, "coalition": null},
+        {"id": "agent_2", "status": 0.5, "coalition": "coalition_1"}
+      ],
+      "edges": [
+        {"source": "agent_0", "target": "agent_1", "weight": 0.3},
+        {"source": "agent_1", "target": "agent_0", "weight": 0.2},
+        {"source": "agent_0", "target": "agent_2", "weight": 0.8}
+      ]
+    }
+  ]
+}
