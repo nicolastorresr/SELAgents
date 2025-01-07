@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "simulation_id": "sim_20250107_001",
+    "timestamp": "2025-01-07T09:00:00",
+    "version": "0.1.0"
+  },
+  "coalitions": [
+    {
+      "step": 50,
+      "coalition_id": "coalition_1",
+      "members": ["agent_0", "agent_2"],
+      "formation_context": {
+        "avg_relationship_strength": 0.75,
+        "shared_resources": 150,
+        "formation_trigger": "cooperation"
+      },
+      "metrics": {
+        "cohesion": 0.8,
+        "efficiency": 0.7,
+        "stability": 0.9
+      }
+    }
+  ],
+  "resource_distribution": [
+    {
+      "step": 50,
+      "resources": {
+        "coalition_1": 150,
+        "unaffiliated": 250
+      },
+      "distribution_metrics": {
+        "gini_coefficient": 0.4,
+        "resource_concentration": 0.35
+      }
+    }
+  ]
+}
