@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "simulation_id": "sim_20250107_001",
+    "timestamp": "2025-01-07T09:00:00",
+    "num_agents": 10,
+    "num_steps": 1000,
+    "version": "0.1.0"
+  },
+  "interactions": [
+    {
+      "step": 0,
+      "agent_id": "agent_0",
+      "partner_id": "agent_3",
+      "interaction_type": "cooperation",
+      "outcome": 0.85,
+      "emotional_states": {
+        "agent_0": [0.6, 0.2, 0.1, 0.1],
+        "agent_3": [0.5, 0.3, 0.1, 0.1]
+      },
+      "resources_exchanged": 15
+    },
+    {
+      "step": 0,
+      "agent_id": "agent_1",
+      "partner_id": "agent_4",
+      "interaction_type": "competition",
+      "outcome": 0.35,
+      "emotional_states": {
+        "agent_1": [0.2, 0.6, 0.1, 0.1],
+        "agent_4": [0.3, 0.5, 0.1, 0.1]
+      },
+      "resources_exchanged": 5
+    }
+  ]
+}
