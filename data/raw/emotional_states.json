@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "simulation_id": "sim_20250107_001",
+    "timestamp": "2025-01-07T09:00:00",
+    "emotion_dimensions": ["joy", "anger", "fear", "sadness"],
+    "version": "0.1.0"
+  },
+  "states": [
+    {
+      "step": 0,
+      "agent_id": "agent_0",
+      "emotional_state": [0.6, 0.2, 0.1, 0.1],
+      "emotional_capacity": 0.8,
+      "context": {
+        "recent_interactions": 0,
+        "resources": 100,
+        "social_status": 0.5
+      }
+    },
+    {
+      "step": 0,
+      "agent_id": "agent_1",
+      "emotional_state": [0.2, 0.6, 0.1, 0.1],
+      "emotional_capacity": 0.7,
+      "context": {
+        "recent_interactions": 0,
+        "resources": 100,
+        "social_status": 0.5
+      }
+    }
+  ]
+}
