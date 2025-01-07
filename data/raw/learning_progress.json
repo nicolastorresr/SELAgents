@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "simulation_id": "sim_20250107_001",
+    "timestamp": "2025-01-07T09:00:00",
+    "version": "0.1.0"
+  },
+  "agent_progress": [
+    {
+      "step": 0,
+      "agent_id": "agent_0",
+      "learning_metrics": {
+        "strategy_diversity": 0.5,
+        "adaptation_speed": 0.3,
+        "exploration_rate": 0.8
+      },
+      "performance_metrics": {
+        "interaction_success": 0.6,
+        "resource_efficiency": 0.5,
+        "social_influence": 0.4
+      },
+      "emotional_learning": {
+        "emotion_prediction_accuracy": 0.7,
+        "response_appropriateness": 0.6,
+        "emotional_regulation": 0.5
+      }
+    }
+  ],
+  "global_progress": [
+    {
+      "step": 0,
+      "metrics": {
+        "average_learning_rate": 0.4,
+        "population_diversity": 0.7,
+        "social_stability": 0.6
+      }
+    }
+  ]
+}
