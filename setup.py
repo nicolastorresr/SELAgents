@@ -109,9 +109,9 @@ setup(
     
     # Project URLs
     project_urls={
-        'Bug Reports': 'https://github.com/yourusername/selagents/issues',
+        'Bug Reports': 'https://github.com/nicolastorresr/selagents/issues',
         'Documentation': 'https://selagents.readthedocs.io/',
-        'Source': 'https://github.com/yourusername/selagents',
+        'Source': 'https://github.com/nicolastorresr/selagents',
     },
     
     # Package data
